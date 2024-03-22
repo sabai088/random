@@ -1,0 +1,4 @@
+This file lists the files that should not be tracked by Git.
+
+*.pyc
+__pycache__/*
