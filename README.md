@@ -1,27 +1,46 @@
-README for the randomizer repository
+README.md for JavaScript Geometric Shape Generator Script
 
-This repository contains a Python module for generating random numbers.
+JavaScript Geometric Shape Generator
 
-Installation
+This repository contains JavaScript code for generating random geometric shapes on a canvas element.
 
-To install the module, clone the repository and run the following command:
+Features:
 
-python setup.py install
-Usage
+Generate various shapes: circles, squares, triangles, pentagons (and more).
+Randomly select the color and size of the shapes.
+Animate the rotation of the shapes.
+User interaction: dragging, rotating, clicking.
+How to use:
 
-To use the module, import it into your Python script:
+Copy the code from the script.js and randomizer.js files into your project.
+Reference these files in your HTML code.
+Run your HTML file in a browser.
+Example:
 
-Python
-import randomizer
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Geometric Shape Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
 
-Then, you can use the generate_random_number function to generate a random number:
+  <script src="randomizer.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+Используйте код с осторожностью.
 
-Python
-random_number = randomizer.generate_random_number(1, 100)
+Additional:
 
-The generate_random_number function takes two arguments:
+You can modify the code to add new shapes, parameters, or features.
+You can use this code in your projects or websites.
+Please leave feedback or report bugs if you encounter any.
+License:
 
-min_value: The minimum value of the random number.
-max_value: The maximum value of the random number.
-The function returns a random number within the specified range.
+This code is licensed under the MIT License.
 
