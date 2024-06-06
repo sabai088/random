@@ -1,5 +1,5 @@
 // Connecting randomizer function from another file
-const { getRandomNumber, getRandomColor } = require('./randomizer');
+const { getRandomNumber, getRandomColor } = require('https://github.com/sabai088/rindomizer');
 
 // Getting a canvas element
 const canvas = document.getElementById('canvas');
