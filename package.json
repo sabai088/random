@@ -1,28 +1,25 @@
 {
-  "name": "@peredoz088/randomizer",
-  "version": "1.0.0",
-  "description": "A module for generating random numbers.",
-  "main": "index.js",
+  "name": "random-figures",
+  "version": "1.0.1",
+  "description": "README.md for JavaScript Geometric Shape Generator Script",
+  "main": "script.js",
   "scripts": {
-    "test": "npm run lint && npm run test:unit",
-    "lint": "eslint .",
-    "test:unit": "jest",
-    "build": "npm run lint && npm run test && babel src -d lib",
-    "publish": "npm run build && npm publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["random", "number", "generator"],
-  "author": "Your Name",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sabai088/random-figures"
+  },
+  "keywords": [
+    "tea.xyz"
+  ],
+  "author": "sabai088",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabai088/random-figures/issues"
+  },
+  "homepage": "https://github.com/sabai088/random-figures#readme",
   "dependencies": {
-    "random": "^1.0.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^6.24.1",
-    "eslint": "^7.28.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "jest": "^27.3.1",
-    "npm-run-all": "^4.1.5"
+    "random-figures": "^1.0.1"
   }
 }
